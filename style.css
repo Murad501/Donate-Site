@@ -6,3 +6,131 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* common style start */
+
+.heading {
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: bold;
+    color: #121212;
+}
+
+.para {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+}
+
+/* common style end */
+
+/* hero section start */
+
+#hero-section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero-details {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-heading {
+    color: #fff;
+    font-size: 65px;
+    line-height: 79px;
+    font-weight: bold;
+}
+.hero-para {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* hero section end */
+
+/* Donate section start */
+    
+    #donate-section {
+        padding-top: 130px;
+        padding-bottom: 75px;
+    }
+
+    .donate-details {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .donate-para {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fafafa;
+        height: 123px;
+        width: 135px;
+        border-radius: 5px;
+    }
+    .box-2 {
+        background-color: #ffeeee; 
+        border: 2px solid #ff5959;
+
+    }
+    .donate-amount {
+        display: flex;
+        width: 765px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    
+    }
+    .box-heading {
+        font-size: 30px;
+        line-height: 36px;
+        color: #707070;
+        font-weight: bold;
+    }
+    .box-heading-2 {
+        color: #ff5959;
+    }
+    .input-amount {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+        color: #b3b3b3;
+        width: 763px;
+        border-bottom: 1px solid #dadada;
+        margin-bottom: 30px;
+    }
+    
+    .form-btn {
+        border: none;
+    }
+
+/* Donate section end */
