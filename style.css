@@ -47,11 +47,10 @@
 #hero-section {
     height: 100vh;
     /* width: 100vw; */
-    background:  url(./images/donation5.jpg);
+    background:  url(./images/hero-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 .hero-details {
     height: 100%;
@@ -195,11 +194,12 @@
 
     #bonus-section {
         padding: 100px 70px;
-        background-image: url(./images/bonus.jpg);
+        background-image: url(./images/donation2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+    
     .bonus-section-items {
         display: flex;
         justify-content: center;
@@ -228,6 +228,7 @@
         color: #fff;
     }
     .bonus-btn {
+        text-decoration: none;
         font-weight: 800;
         background-color: transparent;
         text-transform: uppercase;
