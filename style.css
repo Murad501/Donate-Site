@@ -46,8 +46,8 @@
 
 #hero-section {
     height: 100vh;
-    width: 100vw;
-    background-image: url(./images/donation5.jpg);
+    /* width: 100vw; */
+    background:  url(./images/donation5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -190,6 +190,53 @@
     }
 
 /* Donate plan section end */
+
+/* Bonus section start */
+
+    #bonus-section {
+        padding: 100px 70px;
+        background-image: url(./images/bonus.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .bonus-section-items {
+        display: flex;
+        justify-content: center;
+    }
+    .bonus-section-items > * {
+        flex-basis: 100%;
+    }
+    .bonus-section-item-2 {
+        text-align: center;
+        
+        display: flex;
+        justify-content: end;
+    }
+    .bonus-section-item {
+        padding-top: 100px;
+        padding-left: 90px;
+        padding-right: 90px;
+        background-color: #C54626;
+        width: 500px;
+        height: 460px;
+    }
+    .bonus-heading {
+        color: #fff;
+    }
+    .bonus-para {
+        color: #fff;
+    }
+    .bonus-btn {
+        font-weight: 800;
+        background-color: transparent;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 16px 30px;
+        border: 1px solid #fff;
+    }
+
+/* Bonus section end */
 
 /* Newsletter section start */
 
